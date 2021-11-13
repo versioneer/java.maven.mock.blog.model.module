@@ -12,9 +12,9 @@
   <url>http://maven.apache.org</url>
   <scm>
     <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
-    <connection>scm:https://github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
+    <connection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
     <developerConnection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
-    <tag>mock-blog-model-1.0</tag>
+    <tag>{HEAD}</tag>
   </scm>
   <build>
     <pluginManagement>
