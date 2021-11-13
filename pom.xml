@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>mock-blog-model</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>a0komjlzhc4wa-artifactory-primary-0-releases</name>
+      <url>https://versioneer.jfrog.io/artifactory/default-maven-virtual</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>a0komjlzhc4wa-artifactory-primary-0-snapshots</name>
+      <url>https://versioneer.jfrog.io/artifactory/default-maven-virtual</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
