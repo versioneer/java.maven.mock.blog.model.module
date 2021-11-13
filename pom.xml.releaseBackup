@@ -7,7 +7,7 @@
     <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
     <connection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
     <developerConnection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
-    <tag>mock-blog-model-1.0</tag>
+    <tag>mock-blog-model-1.1</tag>
   </scm>
   <build>
     <pluginManagement>
@@ -27,7 +27,7 @@
   <groupId>com.versioneer.mock.model</groupId>
   <artifactId>mock-blog-model</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>mock-blog-model</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
