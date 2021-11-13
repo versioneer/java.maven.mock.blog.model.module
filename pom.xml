@@ -14,7 +14,6 @@
     <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
     <connection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
     <developerConnection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
-    <tag>${HEAD}</tag>
   </scm>
   <build>
     <pluginManagement>
