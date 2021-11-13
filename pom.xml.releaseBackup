@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <scm>
     <connection>scm:svn:https://github.com/versioneer/java.maven.mock.blog.model.module/main</connection>
-    <developerConnection>scm:svn:https://github.com/versioneer/java.maven.mock.blog.model.module/main</developerConnection>
+    <developerConnection>scm:svn:https://github.com/versioneer/java.main.mock.blog.model.module/main</developerConnection>
   </scm>
   <build>
     <pluginManagement>
@@ -15,7 +16,7 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>2.5.2</version>
           <configuration>
-            <tagBase>https://github.com/versioneer/java.maven.mock.blog.model.module/tag</tagBase>
+            <tagBase>https://host:port/abc/xyz/tag</tagBase>
             <releaseProfiles>release</releaseProfiles>
           </configuration>
         </plugin>
@@ -26,7 +27,7 @@
   <groupId>com.versioneer.mock.model</groupId>
   <artifactId>mock-blog-model</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>mock-blog-model</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
