@@ -4,25 +4,11 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <scm>
-    <connection>scm:svn:https://github.com/versioneer/java.maven.mock.blog.model.module/main</connection>
-    <developerConnection>scm:svn:https://github.com/versioneer/java.maven.mock.blog.model.module/main</developerConnection>
+    <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
+    <connection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
+    <developerConnection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
+    <tag>{HEAD}</tag>
   </scm>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.2</version>
-          <configuration>
-            <tagBase>https://github.com/versioneer/java.maven.mock.blog.model.module/tag</tagBase>
-            <releaseProfiles>release</releaseProfiles>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.versioneer.mock.model</groupId>
   <artifactId>mock-blog-model</artifactId>
