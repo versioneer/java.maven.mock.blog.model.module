@@ -3,18 +3,11 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.versioneer.mock.model</groupId>
-  <artifactId>mock-blog-model</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0</version>
-  <name>mock-blog-model</name>
-  <url>http://maven.apache.org</url>
   <scm>
     <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
-    <connection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
-    <developerConnection>scm:git:https://github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
-    <tag>mock-blog-model-1.0</tag>
+    <connection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
+    <developerConnection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
+    <tag>{HEAD}</tag>
   </scm>
   <build>
     <pluginManagement>
@@ -30,6 +23,13 @@
       </plugins>
     </pluginManagement>
   </build>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.versioneer.mock.model</groupId>
+  <artifactId>mock-blog-model</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>mock-blog-model</name>
+  <url>http://maven.apache.org</url>
   <distributionManagement>
     <repository>
       <id>central</id>
