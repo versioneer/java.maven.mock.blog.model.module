@@ -3,17 +3,11 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.versioneer.mock.model</groupId>
-  <artifactId>mock-blog-model</artifactId>
-  <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
-  <name>mock-blog-model</name>
-  <url>http://maven.apache.org</url>
   <scm>
-    <connection>scm:git@github.com:versioneer/java.maven.mock.blog.model.module.git</connection>
-    <developerConnection>scm:git@github.com:versioneer/java.maven.mock.blog.model.module.git</developerConnection>
-    <tag>${HEAD}</tag>
+    <url>https://github.com/versioneer/java.maven.mock.blog.model.module</url>
+    <connection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</connection>
+    <developerConnection>scm:git:git@github.com/versioneer/java.maven.mock.blog.model.module.git</developerConnection>
+    <tag>mock-blog-model-1.1</tag>
   </scm>
   <build>
     <pluginManagement>
@@ -21,22 +15,21 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.0-M4</version>
+          <version>2.5.2</version>
           <configuration>
-            <tagNameFormat>v@{project.version}</tagNameFormat>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-scm-plugin</artifactId>
-          <version>1.12.0</version>
-          <configuration>
-            <goals>install</goals>
+            <releaseProfiles>release</releaseProfiles>
           </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.versioneer.mock.model</groupId>
+  <artifactId>mock-blog-model</artifactId>
+  <packaging>jar</packaging>
+  <version>1.1-SNAPSHOT</version>
+  <name>mock-blog-model</name>
+  <url>http://maven.apache.org</url>
   <distributionManagement>
     <repository>
       <id>central</id>
